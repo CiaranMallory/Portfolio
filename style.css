@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/*Index page*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/*
+html {
+	background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: url(images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+.containerNoBootstrap{
+	width: 100%;
+	height: 100vh;
+	background-image: url(images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+/*
+.container{
+	background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	position: relative;
+	padding-top: 30px;
+	box-sizing: border-box;
+}*/
+
+.navbar{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	background: rgba(29,33,61,0.5);
+	padding: 0 60px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+nav{
+	flex: 1;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 60px;
+}
+
+nav ul li h1{
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+/* About me page */
+.about_me {
+	padding-bottom: 40px;
+}
+
+ .about_me p{
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	color: #555;
+ 	background: #fff;
+ 	font-size: 15px;
+ 	padding: 10px 35px;
+ 	border-radius: 30px;
+ 	margin: auto;
+ }
+
+ .about_me h2{
+ 	color:#fff;
+ 	text-align: center;
+ 	margin-bottom: 10px;
+ }
+
+/*Results page*/
+
+/*Projects page*/
+.video-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 3rem 1rem;
+  padding: 3rem 0;
+  margin: 0 1.5rem;
+  border-top: 4px solid #CCC;
+}
+
+.video-section:first-child {
+  border-top: none;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail {
+  position: relative;
+  display: flex;
+}
+
+.thumbnail-image {
+  width: 100%;
+  height: 100%;
+  min-width: 250px;
+  min-height: 150px;
+  background-color: #AAA;
+}
+
+.video-bottom-section {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.video-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-details a{
+	color: #e6e6e6;
+	font-family: Roboto;
+}
+
+.video-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.video-metadata {
+	color: #e6e6e6;
+	font-family: Roboto;
+}
+
+/*Contact Page*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #365187;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #1e3e8f;
+}
+
+/* Add a background color and some padding around the form */
+.contactForm {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 60px;
+  width: 400px;
+  height: 600px;
+  margin: auto;
+}
+
+.map {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50vw;
+	height: 50vh;
+}

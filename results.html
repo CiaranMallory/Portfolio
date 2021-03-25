@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  </head>
+  <body>
+    <h1>My Data</h1>
+	<a href="index.html" class="backButton">Back</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 chart">
+                <canvas id="myChart" width="500" height="400"></canvas>
+            </div>
+            <div class="col-6 chart">
+                <canvas id="myChart2" width="500" height="400"></canvas>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 chart">
+                <canvas id="myChart3" width="500" height="400"></canvas>
+            </div>
+            <div class="col-6 chart">
+                <canvas id="myChart4" width="500" height="400"></canvas>
+            </div>
+        </div>
+    </div>
+    <style>
+		body {
+			background: url(background.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+		body h1 {
+			font-family: sans-serif;
+			color: aliceblue;
+			padding-top: 20px;
+		}
+        .container {
+            margin: auto;
+			width: 800px;
+			height: 800px;
+            background-color: aliceblue;
+        }
+        .chart {
+        text-align: center;
+        margin: auto;
+        }
+
+        .row {
+        margin-bottom: 150px;
+        }
+
+        h1 {
+        text-align: center;
+        margin-bottom: 80px;
+        }
+
+		a:link, a:visited {
+			background-color: rgb(9, 138, 252);
+			color: white;
+			margin-top: -100px;
+			padding: 14px 25px;
+			margin-left: 10px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+		}
+
+		a:hover, a:active {
+			background-color: rgb(111, 187, 250);
+		}
+    </style>
+    <script src="script.js"></script>
+  </body>
+</html>
