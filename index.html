@@ -3,91 +3,102 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Ciaran Mallory</title>
-		<link rel="stylesheet" href="style.css">
 		<script src="https://kit.fontawesome.com/7b0cf6131d.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
-		<div class="containerNoBootstrap">
-
-			<div class="navbar">
-				<nav>
-					<ul>
-						<li><i class="fas fa-laptop-code"></i><h1>CPM Engineering<h1></li>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="results.html">Results</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-
-			<style>
-				.carousel-item {
-					height: 32rem;
-					color: white;
-					position: relative;
-					text-align: center;
-				}
-		
-				.container {
-					position: absolute;
-					bottom: 0;
-					left: 0;
-					right: 0;
-					padding-bottom: 50px;
-				}
-				
-				.carousel-inner {
-					width: 100%;
-					height: 700px;
-					padding-top: 100px;
-				}
-				.description {
-					margin-top: 200px;
-				}
-
-			</style>
-		
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<h1>Career Ambition</h1>
-						<div class="description">
-							<p>I want to have my say on the future</p>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<h1>Experience</h1>
-						<div class="description">
-							<p>Worked as an Identity Management Intern at Johnson Controls</p>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<h1>Interests</h1>
-						<div class="description">
-							<p>Keen Kayaker and kayak Instrutor, Golfer and Soccer player</p>
-						</div>
-					</div>
+		<div class="home">
+			<div class="containerGlobal">
+				<div class="navbarGlobal">
+					<nav class="navGlobal">
+						<ul>
+							<li><h1 class="title">Ciaran Mallory</h1></li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="results.html">Results</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
 				</div>
-				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
+
+				<style>
+
+					.carousel-item {
+						height: 32rem;
+						color: white;
+						position: relative;
+						text-align: center;
+					}
+			
+					.container {
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						right: 0;
+						padding-bottom: 50px;
+					}
+					
+					.carousel-inner {
+						width: 100%;
+						height: 700px;
+						padding-top: 100px;
+					}
+					.description {
+						margin-top: 200px;
+					}
+
+				</style>
+
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<h1>Career Ambition</h1>
+							<div class="description">
+								<p>I want to have my say on the future and possitively 
+									impact others lives.
+								</p> 
+								<p>
+									I take pride in continuous personal development.
+								</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<h1>Experience</h1>
+							<div class="description">
+								<p>Identity Management Intern at Johnson Controls</p>
+								<p>Head Kayak Instructor at Nevsail Watersports</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<h1>Interests</h1>
+							<div class="description">
+								<h5>Backend Engineering</h5>
+								<h5>Embedded Systems</h5>
+								<h5>Security</h5>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 			</div>
-			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		</div>
 	</body>
 </html>

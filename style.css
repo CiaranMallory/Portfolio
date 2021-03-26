@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 /*Index page*/
 *{
@@ -7,50 +8,32 @@
 	padding: 0;
 	font-family: sans-serif;
 }
-/*
+
 html {
-	background: url(background.jpg) no-repeat center center fixed; 
+	background: url(images/background.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}*/
+}
 
+.home {
+	background: url(images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
-.container{
+.containerGlobal{
 	width: 100%;
 	height: 100vh;
-	background-image: url(images/background.jpg);
-	background-position: center;
-	background-size: cover;
 	position: relative;
 	padding-top: 30px;
 	box-sizing: border-box;
 }
 
-.containerNoBootstrap{
-	width: 100%;
-	height: 100vh;
-	background-image: url(images/background.jpg);
-	background-position: center;
-	background-size: cover;
-	position: relative;
-	padding-top: 30px;
-	box-sizing: border-box;
-}
-/*
-.container{
-	background: url(background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	position: relative;
-	padding-top: 30px;
-	box-sizing: border-box;
-}*/
-
-.navbar{
+.navbarGlobal{
 	width: 100%;
 	height: 60px;
 	display: flex;
@@ -61,22 +44,25 @@ html {
 	margin-bottom: 30px;
 }
 
-nav{
+.navGlobal{
 	flex: 1;
 }
 
-nav ul li{
+.navGlobal ul li{
 	list-style: none;
 	display: inline-block;
 	margin-right: 60px;
 }
 
-nav ul li h1{
+.title {
+	font-family: Dela Gothic One;
+	font-size: 20px;
+	color: black;
 	list-style: none;
 	display: inline-block;
 }
 
-nav ul li a{
+.navGlobal ul li a{
 	text-decoration: none;
 	color: #fff;
 	font-size: 14px;
@@ -84,7 +70,9 @@ nav ul li a{
 
 /* About me page */
 .about_me {
-	padding-bottom: 40px;
+	padding-bottom: 50px;
+	width: 700px;
+	margin: auto;
 }
 
  .about_me p{
@@ -95,13 +83,13 @@ nav ul li a{
  	font-size: 15px;
  	padding: 10px 35px;
  	border-radius: 30px;
- 	margin: auto;
  }
 
  .about_me h2{
  	color:#fff;
  	text-align: center;
- 	margin-bottom: 10px;
+ 	margin-bottom: 50px;
+	margin-top: 100px;
  }
 
 /*Results page*/
